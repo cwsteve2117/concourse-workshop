@@ -2,7 +2,7 @@
 
 == Install FLY CLI
 
-. In a browser navigate to http://concourse.run.cloud.zwickey.net/ and select the icon associated with your platform:
+. In a browser navigate to https://ci.paaslife.com/ and select the icon associated with your platform:
 +
 image::fly.png[]
 
@@ -22,7 +22,7 @@ $ fly -version                                                                  
 +
 [source,bash]
 ---------------------------------------------------------------------
-$ fly --target gcp login --concourse-url http://concourse.cloud.zwickey.net:8080 --team-name Main
+$ fly --target gcp login --concourse-url https://ci.paaslife.com/8080 --team-name Main
 ---------------------------------------------------------------------
 
 . Execute the fly login command, entering the credentials again when prompted.
